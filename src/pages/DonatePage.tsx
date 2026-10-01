@@ -113,11 +113,11 @@ export default function DonatePage() {
               learn more about how your support makes an impact.
             </p>
             <div className="flex flex-wrap gap-3 justify-center">
-             <a href="https://donate.stripe.com/dRm8wP8QLcQ0e6GeZ2aw00" target="_blank" rel="noopener noreferrer" className="btn-gold group">
-                <Heart className="w-4 h-4" />
-                Donate Now
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-             </a>
+           <a href="https://donate.stripe.com/dRm8wP8QLcQ0e6GeZ2awo00" target="_blank" rel="noopener noreferrer" className="btn-gold group">
+  <Heart className="w-4 h-4" />
+  Donate Now
+  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+</a>
               <Link to="/get-involved" className="btn-outline-purple">
                 Other Ways to Help
               </Link>
