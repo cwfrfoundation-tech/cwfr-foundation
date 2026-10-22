@@ -29,12 +29,16 @@ export default function AboutPage() {
         <div className="container-base">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="relative">
-              <div className="rounded-3xl overflow-hidden shadow-2xl">
-                <img
-                  src={IMAGES.story}
-                  alt="Professional workspace illustrating career readiness"
-                  className="w-full h-[460px] lg:h-[540px] object-cover"
-                />
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[460px] lg:h-[540px] bg-gradient-to-br from-purple-950 via-purple-800 to-purple-600 flex items-center justify-center p-7 sm:p-12 border-4 border-gold-400/70">
+                <div className="absolute -top-20 -right-20 w-72 h-72 rounded-full border-[35px] border-gold-400/20" />
+                <div className="absolute -bottom-24 -left-20 w-80 h-80 rounded-full border-[35px] border-white/10" />
+                <div className="relative w-full max-w-sm rounded-3xl bg-white/95 shadow-2xl ring-4 ring-gold-400/60 p-5 sm:p-8">
+                  <img
+                    src="/logo.png"
+                    alt="Official Charles Workforce Readiness Foundation logo"
+                    className="block w-full h-auto object-contain"
+                  />
+                </div>
               </div>
               <div className="absolute -bottom-6 -right-6 bg-gradient-to-br from-purple-700 to-purple-500 text-white rounded-2xl p-6 shadow-xl hidden sm:block">
                 <div className="text-3xl font-display font-bold text-gold-400">17-24</div>
