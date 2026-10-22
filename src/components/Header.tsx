@@ -81,7 +81,7 @@ export default function Header({ currentPath }: HeaderProps) {
               <Heart className="w-4 h-4" />
               Donate
             </Link>
-            <a href="https://airtable.com/app1ixGUs4jrxEBpo/pag4I5QcQ5M907sNs/form" className="btn-gold" target="_blank" rel="noopener noreferrer">
+            <a href="https://airtable.com/app1ixGUs4jrxEBpo/pag4I5QcQ5M907sNs/form" className="btn-gold">
 Apply Today
 </a>
           </div>
@@ -134,7 +134,7 @@ Apply Today
               ))}
             </nav>
           <div className="p-4 border-t border-gray-100 space-y-3">
-            <a href="https://airtable.com/app1ixGUs4jrxEBpo/pag4I5QcQ5M907sNs/form" className="btn-gold w-full" target="_blank" rel="noopener noreferrer">
+            <a href="https://airtable.com/app1ixGUs4jrxEBpo/pag4I5QcQ5M907sNs/form" className="btn-gold w-full">
 Apply Today
 </a>
 <Link to="/donate" className="btn-outline-purple w-full">
