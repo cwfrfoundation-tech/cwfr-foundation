@@ -1,15 +1,15 @@
 export const IMAGES = {
   // Main local assets (featured once on HomePage & AboutPage)
-  hero: '/images/meeting.jpeg',
-  mission: '/images/explaining.jpeg',
-  vision: '/images/presentation.jpeg',
-  about: '/images/team-img.jpeg',
+  hero: '/images/FD6D09A1-7E7F-446F-9066-B54253A0FE9E.png',
+ mission: '/images/D1175822-1D9A-4141-BD8F-25EC4CA043A2.png',
+  vision: '/images/B760657B-C0E7-4BD6-A360-23C31A3F323C.png',
+  about: '/images/356110CE-415A-47A5-AA6F-1B1889D4145A.png',
   founder: '/images/founder-img.jpeg',
   executiveDirector: '/images/Executive-Director.jpeg',
   president: '/images/President.jpeg',
   cfo: '/images/Chief-Financial-Officer.jpeg',
   secretary: '/images/Secretary.jpeg',
-  story: '/images/meeting2.jpeg',
+  story: '/images/IMG_8858.png',
 
   // Dedicated unique page heroes & features (no repeats)
   aboutHero: 'https://images.pexels.com/photos/3182759/pexels-photo-3182759.jpeg?auto=compress&cs=tinysrgb&w=1600',
