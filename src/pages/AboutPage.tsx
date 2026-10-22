@@ -33,7 +33,7 @@ export default function AboutPage() {
                 <img
                   src={IMAGES.story}
                   alt="Young adults in workforce development program"
-                  className="w-full h-[460px] lg:h-[540px] object-cover"
+                  className="w-full h-[460px] lg:h-[540px] object-contain bg-gradient-to-br from-purple-950 via-purple-800 to-purple-500"
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-gradient-to-br from-purple-700 to-purple-500 text-white rounded-2xl p-6 shadow-xl hidden sm:block">
