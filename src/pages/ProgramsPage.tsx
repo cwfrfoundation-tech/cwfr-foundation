@@ -52,7 +52,7 @@ export default function ProgramsPage() {
               <div className="relative bg-gradient-to-r from-purple-200 via-purple-100 to-amber-50 overflow-hidden">
                 <div className="grid grid-cols-2 gap-0">
                   <div className="relative min-w-0 overflow-hidden">
-                    <img src="/images/356110CE-415A-47A5-AA6F-1B1889D4145A.png" alt="Original portrait of Executive Director Tiffinay Cage in gold dress" className="block w-full h-64 sm:h-80 lg:h-96 object-cover object-top" loading="lazy" />
+                    <img src="/images/356110CE-415A-47A5-AA6F-1B1889D4145A.png" alt="Original portrait of Executive Director Tiffinay Cage in gold dress" className="block w-full h-64 sm:h-80 lg:h-96 object-cover object-top scale-[1.6] origin-top" loading="lazy" />
                   </div>
                   <div className="relative min-w-0 overflow-hidden">
                     <img src="/images/FD6D09A1-7E7F-446F-9066-B54253A0FE9E.png" alt="Original portrait of Founder Charles C. Vallon in purple suit" className="block w-full h-64 sm:h-80 lg:h-96 object-cover object-top" loading="lazy" />
