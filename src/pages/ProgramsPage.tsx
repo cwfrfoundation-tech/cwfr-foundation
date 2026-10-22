@@ -24,17 +24,41 @@ export default function ProgramsPage() {
             <p className="text-purple-100 mt-3 max-w-2xl mx-auto">Real young people. Real potential. One community committed to opportunity.</p>
           </div>
           <div className="grid grid-cols-3 gap-2 sm:gap-5 max-w-5xl mx-auto">
-            <div className="rounded-2xl overflow-hidden bg-purple-800 border border-gold-400/40 shadow-xl">
-              <img src="/images/D1175822-1D9A-4141-BD8F-25EC4CA043A2.png" alt="CWFR youth participant in purple polo" className="w-full h-48 sm:h-96 object-contain" loading="lazy" />
+            <div className="rounded-2xl overflow-hidden bg-gradient-to-b from-purple-700 to-purple-900 border-2 border-gold-400/60 shadow-xl p-2 sm:p-3">
+              <img src="/images/D1175822-1D9A-4141-BD8F-25EC4CA043A2.png" alt="CWFR youth participant in purple polo" className="w-full h-48 sm:h-96 object-contain object-center rounded-xl" loading="lazy" />
             </div>
-            <div className="rounded-2xl overflow-hidden bg-purple-800 border-2 border-gold-400 shadow-2xl sm:-translate-y-3">
-              <img src="/images/cwfr_gold_polo_retouched.png" alt="CWFR youth participant in gold polo" className="w-full h-48 sm:h-96 object-contain" loading="lazy" />
+            <div className="rounded-2xl overflow-hidden bg-gradient-to-b from-purple-700 to-purple-900 border-2 border-gold-400/60 shadow-xl p-2 sm:p-3">
+              <img src="/images/cwfr_gold_polo_retouched.png" alt="CWFR youth participant in gold polo" className="w-full h-48 sm:h-96 object-contain object-center rounded-xl" loading="lazy" />
             </div>
-            <div className="rounded-2xl overflow-hidden bg-purple-800 border border-gold-400/40 shadow-xl">
-              <img src="/images/IMG_8858.png" alt="CWFR youth participant in purple polo" className="w-full h-48 sm:h-96 object-contain" loading="lazy" />
+            <div className="rounded-2xl overflow-hidden bg-gradient-to-b from-purple-700 to-purple-900 border-2 border-gold-400/60 shadow-xl p-2 sm:p-3">
+              <img src="/images/IMG_8858.png" alt="CWFR youth participant in purple polo" className="w-full h-48 sm:h-96 object-contain object-center rounded-xl" loading="lazy" />
             </div>
           </div>
           <p className="text-center text-purple-200 text-xs mt-5">Portrait gallery featuring actual CWFR participants.</p>
+        </div>
+      </section>
+
+      {/* Financial literacy leadership: authentic original portraits, not a fabricated event photo */}
+      <section className="py-14 sm:py-20 bg-white">
+        <div className="container-base">
+          <div className="grid grid-cols-1 lg:grid-cols-2 overflow-hidden rounded-3xl border border-purple-200 shadow-xl">
+            <div className="bg-gradient-to-br from-purple-950 via-purple-800 to-purple-600 p-7 sm:p-12 flex flex-col justify-center">
+              <p className="text-gold-400 text-xs font-bold uppercase tracking-widest">Financial Literacy • Foundation Leadership</p>
+              <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mt-4">Building confident financial futures</h2>
+              <p className="mt-5 text-purple-100 leading-relaxed">Financial literacy is part of our commitment to helping young adults ages 17–24 prepare for life and work. Our Founder, Charles C. Vallon, and Executive Director, Tiffinay Cage, bring real-world experience and personal commitment to this mission.</p>
+              <p className="mt-4 text-purple-200 text-sm">Leadership portraits shown together as an illustration of our mission—not a photograph of a training session.</p>
+            </div>
+            <div className="grid grid-cols-2 gap-3 sm:gap-5 bg-gradient-to-br from-purple-100 to-amber-50 p-4 sm:p-8 items-center">
+              <figure className="h-full bg-white rounded-2xl shadow-lg overflow-hidden border border-purple-200 flex flex-col">
+                <div className="flex-1 flex items-center justify-center bg-purple-50 p-2"><img src="/images/356110CE-415A-47A5-AA6F-1B1889D4145A.png" alt="Original portrait of Executive Director Tiffinay Cage" className="w-full h-52 sm:h-72 object-contain object-center" loading="lazy" /></div>
+                <figcaption className="p-3 sm:p-4 text-center"><span className="block text-sm sm:text-base font-bold text-purple-950">Tiffinay Cage</span><span className="block mt-1 text-xs text-purple-700">Executive Director</span></figcaption>
+              </figure>
+              <figure className="h-full bg-white rounded-2xl shadow-lg overflow-hidden border border-purple-200 flex flex-col">
+                <div className="flex-1 flex items-center justify-center bg-purple-50 p-2"><img src="/images/FD6D09A1-7E7F-446F-9066-B54253A0FE9E.png" alt="Original portrait of Founder Charles C. Vallon" className="w-full h-52 sm:h-72 object-contain object-center" loading="lazy" /></div>
+                <figcaption className="p-3 sm:p-4 text-center"><span className="block text-sm sm:text-base font-bold text-purple-950">Charles C. Vallon</span><span className="block mt-1 text-xs text-purple-700">Founder &amp; Chairman</span></figcaption>
+              </figure>
+            </div>
+          </div>
         </div>
       </section>
 
