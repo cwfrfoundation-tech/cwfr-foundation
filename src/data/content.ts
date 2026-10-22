@@ -2,7 +2,7 @@ export const IMAGES = {
   // Main local assets (featured once on HomePage & AboutPage)
   hero: '/images/FD6D09A1-7E7F-446F-9066-B54253A0FE9E.png',
  mission: '/images/D1175822-1D9A-4141-BD8F-25EC4CA043A2.png',
-  vision: '/images/B760657B-C0E7-4BD6-A360-23C31A3F323C.png',
+  vision: '/images/cwfr_gold_polo_retouched.png',
   about: '/images/356110CE-415A-47A5-AA6F-1B1889D4145A.png',
   founder: '/images/founder-img.jpeg',
   executiveDirector: '/images/Executive-Director.jpeg',
