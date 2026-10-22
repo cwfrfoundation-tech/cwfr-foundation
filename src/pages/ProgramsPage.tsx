@@ -38,25 +38,32 @@ export default function ProgramsPage() {
         </div>
       </section>
 
-      {/* Financial literacy leadership: authentic original portraits, not a fabricated event photo */}
+      {/* Financial literacy leadership: unaltered original portraits in one continuous composition */}
       <section className="py-14 sm:py-20 bg-white">
         <div className="container-base">
-          <div className="grid grid-cols-1 lg:grid-cols-2 overflow-hidden rounded-3xl border border-purple-200 shadow-xl">
-            <div className="bg-gradient-to-br from-purple-950 via-purple-800 to-purple-600 p-7 sm:p-12 flex flex-col justify-center">
-              <p className="text-gold-400 text-xs font-bold uppercase tracking-widest">Financial Literacy • Foundation Leadership</p>
-              <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mt-4">Building confident financial futures</h2>
-              <p className="mt-5 text-purple-100 leading-relaxed">Financial literacy is part of our commitment to helping young adults ages 17–24 prepare for life and work. Our Founder, Charles C. Vallon, and Executive Director, Tiffinay Cage, bring real-world experience and personal commitment to this mission.</p>
-              <p className="mt-4 text-purple-200 text-sm">Leadership portraits shown together as an illustration of our mission—not a photograph of a training session.</p>
-            </div>
-            <div className="grid grid-cols-2 gap-3 sm:gap-5 bg-gradient-to-br from-purple-100 to-amber-50 p-4 sm:p-8 items-center">
-              <figure className="h-full bg-white rounded-2xl shadow-lg overflow-hidden border border-purple-200 flex flex-col">
-                <div className="flex-1 flex items-center justify-center bg-purple-50 p-2"><img src="/images/356110CE-415A-47A5-AA6F-1B1889D4145A.png" alt="Original portrait of Executive Director Tiffinay Cage" className="w-full h-52 sm:h-72 object-contain object-center" loading="lazy" /></div>
-                <figcaption className="p-3 sm:p-4 text-center"><span className="block text-sm sm:text-base font-bold text-purple-950">Tiffinay Cage</span><span className="block mt-1 text-xs text-purple-700">Executive Director</span></figcaption>
-              </figure>
-              <figure className="h-full bg-white rounded-2xl shadow-lg overflow-hidden border border-purple-200 flex flex-col">
-                <div className="flex-1 flex items-center justify-center bg-purple-50 p-2"><img src="/images/FD6D09A1-7E7F-446F-9066-B54253A0FE9E.png" alt="Original portrait of Founder Charles C. Vallon" className="w-full h-52 sm:h-72 object-contain object-center" loading="lazy" /></div>
-                <figcaption className="p-3 sm:p-4 text-center"><span className="block text-sm sm:text-base font-bold text-purple-950">Charles C. Vallon</span><span className="block mt-1 text-xs text-purple-700">Founder &amp; Chairman</span></figcaption>
-              </figure>
+          <div className="overflow-hidden rounded-3xl shadow-xl bg-gradient-to-r from-purple-950 via-purple-700 to-purple-900">
+            <div className="grid grid-cols-1 lg:grid-cols-2">
+              <div className="p-7 sm:p-12 flex flex-col justify-center">
+                <p className="text-gold-400 text-xs font-bold uppercase tracking-widest">Financial Literacy • Foundation Leadership</p>
+                <h2 className="font-display text-3xl sm:text-4xl font-bold text-white mt-4">Building confident financial futures</h2>
+                <p className="mt-5 text-purple-100 leading-relaxed">Financial literacy is part of our commitment to helping young adults ages 17–24 prepare for life and work. Our Founder, Charles C. Vallon, and Executive Director, Tiffinay Cage, bring real-world experience and personal commitment to this mission.</p>
+                <p className="mt-4 text-purple-200 text-sm">Original leadership portraits presented together as an illustration of our mission, not a photograph of a training session.</p>
+              </div>
+              <div className="relative bg-gradient-to-r from-purple-200 via-purple-100 to-amber-50 overflow-hidden">
+                <div className="grid grid-cols-2 gap-0">
+                  <div className="relative min-w-0 overflow-hidden">
+                    <img src="/images/356110CE-415A-47A5-AA6F-1B1889D4145A.png" alt="Original portrait of Executive Director Tiffinay Cage in gold dress" className="block w-full h-64 sm:h-80 lg:h-96 object-cover object-top" loading="lazy" />
+                  </div>
+                  <div className="relative min-w-0 overflow-hidden">
+                    <img src="/images/FD6D09A1-7E7F-446F-9066-B54253A0FE9E.png" alt="Original portrait of Founder Charles C. Vallon in purple suit" className="block w-full h-64 sm:h-80 lg:h-96 object-cover object-top" loading="lazy" />
+                  </div>
+                </div>
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-purple-950/30 via-transparent to-purple-700/5" />
+                <div className="grid grid-cols-2 bg-purple-950 text-white text-center">
+                  <div className="py-3 px-2"><span className="block text-sm sm:text-base font-bold">Tiffinay Cage</span><span className="block mt-1 text-xs text-purple-200">Executive Director</span></div>
+                  <div className="py-3 px-2"><span className="block text-sm sm:text-base font-bold">Charles C. Vallon</span><span className="block mt-1 text-xs text-purple-200">Founder &amp; Chairman</span></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
