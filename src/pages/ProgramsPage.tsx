@@ -15,6 +15,29 @@ export default function ProgramsPage() {
         image={IMAGES.programsHero}
       />
 
+      {/* Real participants portrait gallery: original photos, no altered faces */}
+      <section className="py-12 sm:py-16 bg-gradient-to-br from-purple-950 via-purple-900 to-purple-700">
+        <div className="container-base">
+          <div className="text-center mb-9">
+            <p className="text-gold-400 text-sm font-bold uppercase tracking-widest mb-2">The people behind our purpose</p>
+            <h2 className="font-display font-bold text-3xl sm:text-4xl text-white">Meet Our Participants</h2>
+            <p className="text-purple-100 mt-3 max-w-2xl mx-auto">Real young people. Real potential. One community committed to opportunity.</p>
+          </div>
+          <div className="grid grid-cols-3 gap-2 sm:gap-5 max-w-5xl mx-auto">
+            <div className="rounded-2xl overflow-hidden bg-purple-800 border border-gold-400/40 shadow-xl">
+              <img src="/images/D1175822-1D9A-4141-BD8F-25EC4CA043A2.png" alt="CWFR youth participant in purple polo" className="w-full h-48 sm:h-96 object-contain" loading="lazy" />
+            </div>
+            <div className="rounded-2xl overflow-hidden bg-purple-800 border-2 border-gold-400 shadow-2xl sm:-translate-y-3">
+              <img src="/images/cwfr_gold_polo_retouched.png" alt="CWFR youth participant in gold polo" className="w-full h-48 sm:h-96 object-contain" loading="lazy" />
+            </div>
+            <div className="rounded-2xl overflow-hidden bg-purple-800 border border-gold-400/40 shadow-xl">
+              <img src="/images/IMG_8858.png" alt="CWFR youth participant in purple polo" className="w-full h-48 sm:h-96 object-contain" loading="lazy" />
+            </div>
+          </div>
+          <p className="text-center text-purple-200 text-xs mt-5">Portrait gallery featuring actual CWFR participants.</p>
+        </div>
+      </section>
+
       {/* Programs Grid */}
       <section className="py-20 lg:py-28 bg-white">
         <div className="container-base">
