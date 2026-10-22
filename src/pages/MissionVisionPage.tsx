@@ -19,11 +19,11 @@ export default function MissionVisionPage() {
         <div className="container-base">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="relative">
-              <div className="rounded-3xl overflow-hidden shadow-2xl">
+              <div className="rounded-3xl overflow-hidden shadow-2xl bg-[url('/images/5A1FDDE5-D528-4E8F-8BC6-FC5EBF44B049.jpeg')] bg-cover bg-center h-[440px] lg:h-[520px] flex items-center justify-center p-6">
                 <img
-                  src={IMAGES.missionPageMission}
-                  alt="Mentoring session for workforce development"
-                  className="w-full h-[440px] lg:h-[520px] object-cover"
+                  src="/images/IMG_3717.jpeg"
+                  alt="Official Charles Workforce Readiness Foundation logo on purple and gold branded background"
+                  className="relative z-10 w-[78%] max-w-md h-auto object-contain rounded-xl shadow-2xl border border-gold-400/50"
                 />
               </div>
 
