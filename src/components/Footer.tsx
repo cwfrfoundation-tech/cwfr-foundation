@@ -23,7 +23,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex gap-3 flex-wrap justify-center shrink-0">
-            <Link to="/contact" className="btn-gold">Apply Today</Link>
+            <a href="https://airtable.com/app1ixGUs4jrxEBpo/pag4I5QcQ5M907sNs/form" className="btn-gold">Apply Today</a>
             <Link to="/get-involved" className="btn-outline">Volunteer</Link>
           </div>
         </div>
