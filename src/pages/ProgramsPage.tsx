@@ -1,4 +1,4 @@
-import { ArrowRight, UsersRound, MessageCircle, TrendingUp, GraduationCap, BriefcaseBusiness, Building2, Handshake } from 'lucide-react';
+import { ArrowRight, UsersRound, MessageCircle, TrendingUp, GraduationCap, BriefcaseBusiness, Building2, Handshake, Compass, Target, CheckCircle2, HeartHandshake } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import SectionHeading from '@/components/SectionHeading';
 import { PROGRAMS, STEPS } from '@/data/programs';
@@ -146,6 +146,33 @@ export default function ProgramsPage() {
                         <div className="mt-4 border-t border-purple-100 pt-3 text-center text-xs sm:text-sm font-extrabold uppercase tracking-[0.13em] text-purple-900">Stronger together</div>
                       </div>
                       <span className="relative z-10 mt-4 text-center text-xs font-bold uppercase tracking-widest text-purple-700">Businesses • Community • Youth</span>
+                    </div>
+                  ) : program.title === 'Career Coaching' ? (
+                    <div className="absolute inset-0 flex flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-purple-950 via-purple-800 to-purple-500 p-5 sm:p-7">
+                      <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full border-[24px] border-gold-400/20" />
+                      <div className="absolute -bottom-24 -left-20 h-64 w-64 rounded-full border-[24px] border-white/10" />
+                      <div className="relative z-10 flex w-full max-w-sm items-center justify-between gap-2 rounded-2xl border border-gold-400/70 bg-white/10 p-4 shadow-2xl backdrop-blur-sm">
+                        <div className="flex flex-col items-center gap-2"><span className="flex h-16 w-16 items-center justify-center rounded-xl bg-white text-purple-800"><Compass className="h-9 w-9" /></span><span className="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-white">Explore</span></div>
+                        <ArrowRight className="h-6 w-6 shrink-0 text-gold-400" />
+                        <div className="flex flex-col items-center gap-2"><span className="flex h-16 w-16 items-center justify-center rounded-xl border-2 border-gold-400 bg-purple-950 text-gold-400"><Target className="h-9 w-9" /></span><span className="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-white">Set Goals</span></div>
+                        <ArrowRight className="h-6 w-6 shrink-0 text-gold-400" />
+                        <div className="flex flex-col items-center gap-2"><span className="flex h-16 w-16 items-center justify-center rounded-xl bg-white text-purple-800"><CheckCircle2 className="h-9 w-9" /></span><span className="text-[10px] sm:text-xs font-bold uppercase tracking-wider text-white">Grow</span></div>
+                      </div>
+                      <span className="relative z-10 mt-5 text-center text-xs sm:text-sm font-extrabold uppercase tracking-[0.13em] text-gold-300">Find your career direction</span>
+                    </div>
+                  ) : program.title === 'Mentorship' ? (
+                    <div className="absolute inset-0 flex flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-amber-50 via-white to-purple-100 p-5 sm:p-7">
+                      <div className="absolute -top-20 -right-16 h-60 w-60 rounded-full border-[24px] border-purple-800/10" />
+                      <div className="absolute -bottom-20 -left-20 h-60 w-60 rounded-full border-[24px] border-gold-400/20" />
+                      <div className="relative z-10 w-full max-w-sm rounded-2xl border border-gold-400 bg-white p-4 sm:p-5 shadow-xl">
+                        <div className="flex items-center justify-center gap-3 sm:gap-5">
+                          <span className="flex h-16 w-16 items-center justify-center rounded-xl bg-purple-100 text-purple-800"><MessageCircle className="h-9 w-9" /></span>
+                          <span className="flex h-20 w-20 items-center justify-center rounded-full bg-purple-900 text-gold-400 shadow-lg ring-4 ring-gold-400/70"><HeartHandshake className="h-11 w-11" /></span>
+                          <span className="flex h-16 w-16 items-center justify-center rounded-xl bg-amber-100 text-purple-800"><UsersRound className="h-9 w-9" /></span>
+                        </div>
+                        <div className="mt-4 border-t border-purple-100 pt-3 text-center text-xs sm:text-sm font-extrabold uppercase tracking-[0.13em] text-purple-900">Guidance that empowers</div>
+                      </div>
+                      <span className="relative z-10 mt-4 text-center text-xs font-bold uppercase tracking-widest text-purple-700">Listen • Encourage • Connect</span>
                     </div>
                   ) : (
                     <>
