@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, UsersRound, MessageCircle, TrendingUp } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import SectionHeading from '@/components/SectionHeading';
 import { PROGRAMS, STEPS } from '@/data/programs';
@@ -105,14 +105,27 @@ export default function ProgramsPage() {
                       </div>
                       <div className="relative z-10 mt-4 flex items-center justify-center gap-2 text-[11px] font-bold uppercase tracking-widest text-purple-800"><span className="h-1.5 w-1.5 rounded-full bg-gold-500" /> Skills for life and work <span className="h-1.5 w-1.5 rounded-full bg-gold-500" /></div>
                     </div>
+                  ) : program.title === 'Leadership Development' ? (
+                    <div className="absolute inset-0 overflow-hidden bg-gradient-to-br from-purple-950 via-purple-800 to-purple-600 p-5 sm:p-7 flex flex-col items-center justify-center">
+                      <div className="absolute -top-20 -right-16 h-60 w-60 rounded-full border-[24px] border-gold-400/20" />
+                      <div className="absolute -bottom-24 -left-16 h-64 w-64 rounded-full border-[24px] border-white/10" />
+                      <div className="relative z-10 flex items-center gap-3 sm:gap-5">
+                        <div className="flex h-16 w-16 sm:h-20 sm:w-20 flex-col items-center justify-center rounded-full border-2 border-white/60 bg-white/15 shadow-lg backdrop-blur-sm">
+                          <MessageCircle className="h-7 w-7 sm:h-9 sm:w-9 text-white" />
+                        </div>
+                        <div className="flex h-24 w-24 sm:h-28 sm:w-28 flex-col items-center justify-center rounded-full border-4 border-gold-400 bg-white shadow-2xl">
+                          <UsersRound className="h-12 w-12 sm:h-14 sm:w-14 text-purple-800" />
+                        </div>
+                        <div className="flex h-16 w-16 sm:h-20 sm:w-20 flex-col items-center justify-center rounded-full border-2 border-white/60 bg-white/15 shadow-lg backdrop-blur-sm">
+                          <TrendingUp className="h-7 w-7 sm:h-9 sm:w-9 text-gold-400" />
+                        </div>
+                      </div>
+                      <div className="relative z-10 mt-7 rounded-full border border-gold-400/60 bg-purple-950/70 px-5 py-2 text-center text-xs sm:text-sm font-extrabold uppercase tracking-[0.15em] text-gold-300 shadow-lg">Lead • Inspire • Grow</div>
+                    </div>
                   ) : (
                     <>
-                      <img
-                        src={program.title === 'Leadership Development' ? '/images/IMG_3717.jpeg' : program.image}
-                        alt={program.title}
-                        className={program.title === 'Leadership Development' ? 'relative z-10 w-[74%] h-full mx-auto object-contain' : 'w-full h-full object-cover transition-transform duration-500 group-hover:scale-105'}
-                      />
-                      <div className={program.title === 'Leadership Development' ? 'hidden' : 'absolute inset-0 bg-gradient-to-t from-purple-950/70 to-transparent'} />
+                      <img src={program.image} alt={program.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-purple-950/70 to-transparent" />
                     </>
                   )}
                   <div className="absolute top-4 left-4 w-11 h-11 rounded-xl bg-white/90 backdrop-blur flex items-center justify-center shadow-lg">
