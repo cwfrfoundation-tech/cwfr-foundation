@@ -49,13 +49,13 @@ export default function ProgramsPage() {
                 <p className="mt-5 text-purple-100 leading-relaxed">Financial literacy is part of our commitment to helping young adults ages 17–24 prepare for life and work. Our Founder, Charles C. Vallon, and Executive Director, Tiffinay Cage, bring real-world experience and personal commitment to this mission.</p>
                 <p className="mt-4 text-purple-200 text-sm">Original leadership portraits presented together as an illustration of our mission, not a photograph of a training session.</p>
               </div>
-              <div className="relative bg-gradient-to-r from-purple-200 via-purple-100 to-amber-50 overflow-hidden">
+              <div className="relative bg-[#e6e0ed] overflow-hidden">
                 <div className="grid grid-cols-2 gap-0">
                   <div className="relative min-w-0 overflow-hidden">
-                    <img src="/images/356110CE-415A-47A5-AA6F-1B1889D4145A.png" alt="Original portrait of Executive Director Tiffinay Cage in gold dress" className="block w-full h-64 sm:h-80 lg:h-96 object-cover object-top scale-[1.6] origin-top" loading="lazy" />
+                    <img src="/images/356110CE-415A-47A5-AA6F-1B1889D4145A.png" alt="Original portrait of Executive Director Tiffinay Cage in gold dress" className="block w-full h-64 sm:h-80 lg:h-96 object-cover object-top scale-[1.6] origin-top [mask-image:linear-gradient(to_right,transparent_0%,black_18%,black_82%,transparent_100%)]" loading="lazy" />
                   </div>
                   <div className="relative min-w-0 overflow-hidden">
-                    <img src="/images/FD6D09A1-7E7F-446F-9066-B54253A0FE9E.png" alt="Original portrait of Founder Charles C. Vallon in purple suit" className="block w-full h-64 sm:h-80 lg:h-96 object-cover object-top" loading="lazy" />
+                    <img src="/images/FD6D09A1-7E7F-446F-9066-B54253A0FE9E.png" alt="Original portrait of Founder Charles C. Vallon in purple suit" className="block w-full h-64 sm:h-80 lg:h-96 object-cover object-top [mask-image:linear-gradient(to_right,transparent_0%,black_18%,black_82%,transparent_100%)]" loading="lazy" />
                   </div>
                 </div>
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-purple-950/30 via-transparent to-purple-700/5" />
