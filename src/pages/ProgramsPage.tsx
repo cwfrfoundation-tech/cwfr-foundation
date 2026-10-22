@@ -82,13 +82,39 @@ export default function ProgramsPage() {
           <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {PROGRAMS.map((program, i) => (
               <div key={i} className="group card overflow-hidden hover:-translate-y-1 flex flex-col">
-                <div className={program.title === 'Leadership Development' ? "relative aspect-[4/3] overflow-hidden bg-[url('/images/5A1FDDE5-D528-4E8F-8BC6-FC5EBF44B049.jpeg')] bg-cover bg-center" : 'relative aspect-[4/3] overflow-hidden bg-gradient-to-br from-purple-950 via-purple-800 to-purple-500'}>
-                  <img
-                    src={program.title === 'Leadership Development' ? '/images/IMG_3717.jpeg' : program.image}
-                    alt={program.title}
-                    className={program.title === 'Leadership Development' ? 'relative z-10 w-[74%] h-full mx-auto object-contain' : 'w-full h-full object-cover transition-transform duration-500 group-hover:scale-105'}
-                  />
-                  <div className={program.title === 'Leadership Development' ? 'hidden' : 'absolute inset-0 bg-gradient-to-t from-purple-950/70 to-transparent'} />
+                <div className="relative aspect-[4/3] overflow-hidden bg-gradient-to-br from-purple-950 via-purple-800 to-purple-500">
+                  {program.title.includes('Workforce Readiness') ? (
+                    <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-purple-950 via-purple-800 to-purple-600 p-6">
+                      <div className="absolute -right-14 -top-12 h-56 w-56 rounded-full border-[22px] border-gold-400/25" />
+                      <div className="absolute -left-16 -bottom-20 h-64 w-64 rounded-full border-[22px] border-white/10" />
+                      <div className="relative z-10 w-full max-w-[240px] rounded-2xl border-2 border-gold-400/70 bg-white p-5 shadow-2xl transition-transform duration-500 group-hover:scale-105">
+                        <img src="/logo.png" alt="Charles Workforce Readiness Foundation official logo" className="w-full h-28 object-contain" />
+                        <div className="mt-3 border-t border-purple-200 pt-3 text-center text-xs font-extrabold uppercase tracking-[0.15em] text-purple-900">Career-ready skills</div>
+                      </div>
+                    </div>
+                  ) : program.title.includes('Financial Literacy') ? (
+                    <div className="absolute inset-0 flex flex-col justify-center bg-gradient-to-br from-amber-50 via-white to-purple-100 p-5 sm:p-7">
+                      <div className="absolute -right-20 -bottom-20 w-64 h-64 rounded-full border-[26px] border-purple-800/10" />
+                      <div className="relative z-10 flex items-center gap-4 rounded-2xl border border-gold-400 bg-white/95 p-4 shadow-xl">
+                        <div className="w-[45%] shrink-0 rounded-xl bg-purple-50 p-2"><img src="/logo.png" alt="Charles Workforce Readiness Foundation official logo" className="w-full h-28 object-contain" /></div>
+                        <div className="min-w-0 text-purple-950">
+                          <span className="block text-xs font-bold uppercase tracking-wider text-purple-600">Learn • Grow</span>
+                          <span className="mt-2 block text-xl sm:text-2xl font-display font-extrabold leading-tight">Digital Skills</span>
+                          <span className="mt-1 block text-base font-semibold text-amber-700">&amp; Money Smarts</span>
+                        </div>
+                      </div>
+                      <div className="relative z-10 mt-4 flex items-center justify-center gap-2 text-[11px] font-bold uppercase tracking-widest text-purple-800"><span className="h-1.5 w-1.5 rounded-full bg-gold-500" /> Skills for life and work <span className="h-1.5 w-1.5 rounded-full bg-gold-500" /></div>
+                    </div>
+                  ) : (
+                    <>
+                      <img
+                        src={program.title === 'Leadership Development' ? '/images/IMG_3717.jpeg' : program.image}
+                        alt={program.title}
+                        className={program.title === 'Leadership Development' ? 'relative z-10 w-[74%] h-full mx-auto object-contain' : 'w-full h-full object-cover transition-transform duration-500 group-hover:scale-105'}
+                      />
+                      <div className={program.title === 'Leadership Development' ? 'hidden' : 'absolute inset-0 bg-gradient-to-t from-purple-950/70 to-transparent'} />
+                    </>
+                  )}
                   <div className="absolute top-4 left-4 w-11 h-11 rounded-xl bg-white/90 backdrop-blur flex items-center justify-center shadow-lg">
                     <program.icon className="w-5 h-5 text-purple-700" />
                   </div>
