@@ -98,7 +98,7 @@ export default function Footer() {
               </div>
               <div className="flex items-start gap-2">
                 <Mail className="w-4 h-4 mt-0.5 text-gold-400 shrink-0" />
-                <span>Contact us for more info</span>
+                <a href="mailto:cwfrfoundation@gmail.com" className="hover:text-gold-400 hover:underline">cwfrfoundation@gmail.com</a>
               </div>
             </div>
             <div className="flex gap-3">
@@ -121,7 +121,11 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/10 mt-10 pt-6 flex flex-col items-center gap-2 text-center sm:flex-row sm:justify-between sm:text-left text-xs text-purple-300">
-          <p>&copy; {new Date().getFullYear()} {ORG.name}. All rights reserved.</p>
+          <div>
+            <p>&copy; {new Date().getFullYear()} Charles Workforce Readiness Foundation, Incorporated. All rights reserved.</p>
+            <p>Florida charitable solicitation registration: CH85225 · Florida corporation document: N26000012658</p>
+            <p className="mt-1">Some office, nature, and training photographs are illustrative stock images and do not depict actual CWFR program activities.</p>
+          </div>
           <div className="flex items-center gap-1.5">
             <Heart className="w-3 h-3 text-gold-400" />
             <span>Empowering young adults in South Florida</span>
