@@ -31,7 +31,7 @@ export const ORG = {
   founderTitle: 'Founder / Chairman',
   executiveDirector: 'Tiffinay Cage',
   executiveDirectorTitle: 'Executive Director / Vice Chairman',
-  location: 'Serving Miami-Dade, Broward & Monroe Counties, Florida',
+  location: '345 NW 101st Street, Miami, FL · Serving Miami-Dade, Broward & Monroe Counties, Florida',
   audience: 'Young Adults Ages 17-24',
 };
 
