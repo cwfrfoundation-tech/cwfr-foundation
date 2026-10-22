@@ -98,10 +98,10 @@ export default function Hero() {
               transition={{ duration: 0.7, delay: 0.3 }}
               className="mt-8 flex flex-wrap gap-3"
             >
-              <Link to="/contact" className="btn-gold group">
-                Apply Today
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </Link>
+              <a href="https://airtable.com/app1ixGUs4jrxEBpo/pag4I5QcQ5M907sNs/form" className="btn-gold group" target="_blank" rel="noopener noreferrer">
+Apply Today
+<ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+</a>
               <Link to="/donate" className="btn-purple">
                 <Heart className="w-4 h-4" />
                 Donate
