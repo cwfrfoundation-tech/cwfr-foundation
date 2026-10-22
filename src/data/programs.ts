@@ -28,7 +28,7 @@ export const PROGRAMS: Program[] = [
     icon: Target,
     title: 'Career Coaching',
     description: 'Individual and group guidance designed to help young adults identify career interests, establish employment goals, and develop realistic career plans.',
-    image: '/images/B760657B-C0E7-4BD6-A360-23C31A3F323C.png',
+    image: '/images/cwfr_gold_polo_retouched.png',
   },
   {
     icon: FileText,
@@ -40,7 +40,7 @@ export const PROGRAMS: Program[] = [
     icon: Laptop,
     title: 'Digital & Financial Literacy',
     description: 'Helping participants develop essential digital skills and basic financial knowledge needed for today\'s workforce and independent adulthood.',
-    image: '/images/B760657B-C0E7-4BD6-A360-23C31A3F323C.png',
+    image: '/images/cwfr_gold_polo_retouched.png',
   },
   {
     icon: TrendingUp,
