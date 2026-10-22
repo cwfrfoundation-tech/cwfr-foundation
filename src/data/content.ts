@@ -1,24 +1,24 @@
 export const IMAGES = {
-  // Main local assets (featured once on HomePage & AboutPage)
+  // Actual CWFR leadership headshots plus licensed illustrative office/nature photos
   hero: '/images/FD6D09A1-7E7F-446F-9066-B54253A0FE9E.png',
- mission: '/images/D1175822-1D9A-4141-BD8F-25EC4CA043A2.png',
-  vision: '/images/cwfr_gold_polo_retouched.png',
-  about: '/images/356110CE-415A-47A5-AA6F-1B1889D4145A.png',
+ mission: 'https://images.pexels.com/photos/32973007/pexels-photo-32973007.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  vision: 'https://images.pexels.com/photos/4773951/pexels-photo-4773951.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  about: 'https://images.pexels.com/photos/6446245/pexels-photo-6446245.jpeg?auto=compress&cs=tinysrgb&w=1200',
   founder: '/images/founder-img.jpeg',
   executiveDirector: '/images/Executive-Director.jpeg',
   president: '/images/President.jpeg',
   cfo: '/images/Chief-Financial-Officer.jpeg',
   secretary: '/images/Secretary.jpeg',
-  story: '/images/IMG_8858.png',
+  story: 'https://images.pexels.com/photos/34147402/pexels-photo-34147402.jpeg?auto=compress&cs=tinysrgb&w=1200',
 
   // Dedicated unique page heroes & features (no repeats)
   aboutHero: 'https://images.pexels.com/photos/3182759/pexels-photo-3182759.jpeg?auto=compress&cs=tinysrgb&w=1600',
   missionHero: 'https://images.pexels.com/photos/3182777/pexels-photo-3182777.jpeg?auto=compress&cs=tinysrgb&w=1600',
-  missionPageMission: 'https://images.pexels.com/photos/1181563/pexels-photo-1181563.jpeg?auto=compress&cs=tinysrgb&w=1200',
-  missionPageVision: 'https://images.pexels.com/photos/33714902/pexels-photo-33714902.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  missionPageMission: 'https://images.pexels.com/photos/35302651/pexels-photo-35302651.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  missionPageVision: 'https://images.pexels.com/photos/9943258/pexels-photo-9943258.jpeg?auto=compress&cs=tinysrgb&w=1200',
   programsHero: 'https://images.pexels.com/photos/8761350/pexels-photo-8761350.jpeg?auto=compress&cs=tinysrgb&w=1600',
   donateHero: 'https://images.pexels.com/photos/6147022/pexels-photo-6147022.jpeg?auto=compress&cs=tinysrgb&w=1600',
-  donateFeature: 'https://images.pexels.com/photos/33714914/pexels-photo-33714914.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  donateFeature: 'https://images.pexels.com/photos/31968759/pexels-photo-31968759.jpeg?auto=compress&cs=tinysrgb&w=1200',
   contactHero: 'https://images.pexels.com/photos/8761298/pexels-photo-8761298.jpeg?auto=compress&cs=tinysrgb&w=1600',
   legalHero: 'https://images.pexels.com/photos/9301860/pexels-photo-9301860.jpeg?auto=compress&cs=tinysrgb&w=1600',
 };
