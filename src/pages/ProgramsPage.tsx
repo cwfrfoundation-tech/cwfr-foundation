@@ -51,13 +51,13 @@ export default function ProgramsPage() {
           <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {PROGRAMS.map((program, i) => (
               <div key={i} className="group card overflow-hidden hover:-translate-y-1 flex flex-col">
-                <div className="relative aspect-[4/3] overflow-hidden bg-gradient-to-br from-purple-950 via-purple-800 to-purple-500">
+                <div className={program.title === 'Leadership Development' ? "relative aspect-[4/3] overflow-hidden bg-[url('/images/5A1FDDE5-D528-4E8F-8BC6-FC5EBF44B049.jpeg')] bg-cover bg-center" : 'relative aspect-[4/3] overflow-hidden bg-gradient-to-br from-purple-950 via-purple-800 to-purple-500'}>
                   <img
-                    src={program.image}
+                    src={program.title === 'Leadership Development' ? '/images/IMG_3717.jpeg' : program.image}
                     alt={program.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className={program.title === 'Leadership Development' ? 'relative z-10 w-[74%] h-full mx-auto object-contain' : 'w-full h-full object-cover transition-transform duration-500 group-hover:scale-105'}
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-purple-950/70 to-transparent" />
+                  <div className={program.title === 'Leadership Development' ? 'hidden' : 'absolute inset-0 bg-gradient-to-t from-purple-950/70 to-transparent'} />
                   <div className="absolute top-4 left-4 w-11 h-11 rounded-xl bg-white/90 backdrop-blur flex items-center justify-center shadow-lg">
                     <program.icon className="w-5 h-5 text-purple-700" />
                   </div>
