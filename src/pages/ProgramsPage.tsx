@@ -24,13 +24,13 @@ export default function ProgramsPage() {
             <p className="text-purple-100 mt-3 max-w-2xl mx-auto">Real young people. Real potential. One community committed to opportunity.</p>
           </div>
           <div className="grid grid-cols-3 gap-2 sm:gap-5 max-w-5xl mx-auto items-stretch">
-            <div className="relative aspect-[3/4] sm:aspect-[4/5] rounded-xl sm:rounded-2xl overflow-hidden border-2 border-gold-400 shadow-xl bg-purple-900">
+            <div className="relative h-44 sm:h-96 rounded-xl sm:rounded-2xl overflow-hidden border-2 border-gold-400 shadow-xl bg-purple-900">
               <img src="/images/D1175822-1D9A-4141-BD8F-25EC4CA043A2.png" alt="CWFR youth participant in purple polo" className="absolute inset-0 block w-full h-full object-cover object-top" loading="lazy" />
             </div>
-            <div className="relative aspect-[3/4] sm:aspect-[4/5] rounded-xl sm:rounded-2xl overflow-hidden border-2 border-gold-400 shadow-xl bg-purple-900">
+            <div className="relative h-44 sm:h-96 rounded-xl sm:rounded-2xl overflow-hidden border-2 border-gold-400 shadow-xl bg-purple-900">
               <img src="/images/cwfr_gold_polo_retouched.png" alt="CWFR youth participant in gold polo" className="absolute inset-0 block w-full h-full object-cover object-top" loading="lazy" />
             </div>
-            <div className="relative aspect-[3/4] sm:aspect-[4/5] rounded-xl sm:rounded-2xl overflow-hidden border-2 border-gold-400 shadow-xl bg-purple-900">
+            <div className="relative h-44 sm:h-96 rounded-xl sm:rounded-2xl overflow-hidden border-2 border-gold-400 shadow-xl bg-purple-900">
               <img src="/images/IMG_8858.png" alt="CWFR youth participant in purple polo" className="absolute inset-0 block w-full h-full object-cover object-top" loading="lazy" />
             </div>
           </div>
