@@ -40,7 +40,7 @@ export const PROGRAMS: Program[] = [
     icon: Laptop,
     title: 'Digital & Financial Literacy',
     description: 'Helping participants develop essential digital skills and basic financial knowledge needed for today\'s workforce and independent adulthood.',
-    image: 'https://images.pexels.com/photos/29228891/pexels-photo-29228891.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://images.pexels.com/photos/8534182/pexels-photo-8534182.jpeg?auto=compress&cs=tinysrgb&w=1200',
   },
   {
     icon: TrendingUp,
