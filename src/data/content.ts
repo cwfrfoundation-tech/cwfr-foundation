@@ -55,13 +55,6 @@ export interface BoardMember {
 
 export const BOARD_MEMBERS: BoardMember[] = [
   {
-    name: 'Dr. Brian Crawford',
-    role: 'President / Director',
-    organization: 'Charles Workforce Readiness Foundation',
-    image: IMAGES.president,
-    bio: 'Dr. Brian Crawford serves as President and Director, overseeing day-to-day operations with a commitment to organizational excellence. He works closely with the team to implement strategic initiatives, strengthen the organization’s impact, and advance its mission and long-term goals.',
-  },
-  {
     name: 'Beautisheka Jones',
     role: 'Chief Financial Officer (CFO) / Director',
     organization: 'Charles Workforce Readiness Foundation',
