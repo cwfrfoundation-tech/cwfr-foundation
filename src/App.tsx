@@ -11,6 +11,7 @@ import ContactPage from '@/pages/ContactPage';
 import PrivacyPage from '@/pages/PrivacyPage';
 import TermsPage from '@/pages/TermsPage';
 import AccessibilityPage from '@/pages/AccessibilityPage';
+import ApplyPage from '@/pages/ApplyPage';
 
 export default function App() {
   const { path } = useRouter();
@@ -40,6 +41,8 @@ export default function App() {
         return <TermsPage />;
       case '/accessibility':
         return <AccessibilityPage />;
+      case '/apply':
+        return <ApplyPage />;
       default:
         return <HomePage />;
     }
