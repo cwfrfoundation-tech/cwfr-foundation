@@ -98,7 +98,7 @@ export default function Footer() {
               </div>
               <div className="flex items-start gap-2">
                 <Mail className="w-4 h-4 mt-0.5 text-gold-400 shrink-0" />
-                <a href="mailto:cwfrfoundation@gmail.com" className="hover:text-gold-400 hover:underline">cwfrfoundation@gmail.com</Link>
+                <a href="mailto:cwfrfoundation@gmail.com" className="hover:text-gold-400 hover:underline">cwfrfoundation@gmail.com</a>
               </div>
             </div>
             <div className="flex gap-3">
@@ -112,7 +112,7 @@ export default function Footer() {
                   aria-label="Social media link"
                 >
                   <Icon className="w-4 h-4" />
-                </Link>
+                </a>
               ))}
               */}
             </div>
