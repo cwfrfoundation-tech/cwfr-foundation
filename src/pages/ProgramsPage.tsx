@@ -244,9 +244,9 @@ export default function ProgramsPage() {
             title="Take the First Step Today"
             subtitle="Apply to participate in our workforce-readiness programs and start your journey toward career success."
           />
-          <p className="mt-6 text-sm text-gray-600">Step 1: Submit the existing application. Step 2: Return here to watch the orientation and confirm completion. Guardian consent is handled separately for applicants under 18.</p>
+          <p className="mt-6 text-sm text-gray-600">Step 1: Complete the full participant application. Step 2: Watch the orientation video. Step 3: Confirm completion. Guardian consent is handled separately for applicants under 18.</p>
           <div className="mt-8 flex flex-wrap gap-3 justify-center">
-            <a href="https://airtable.com/app1ixGUs4jrxEBpo/pag4I5QcQ5M907sNs/form" className="btn-gold group">
+            <Link to="/apply" className="btn-gold group">
               Apply Today
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
