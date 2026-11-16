@@ -23,7 +23,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex gap-3 flex-wrap justify-center shrink-0">
-            <a href="https://airtable.com/app1ixGUs4jrxEBpo/pag4I5QcQ5M907sNs/form" className="btn-gold">Apply Today</a>
+            <Link to="/apply" className="btn-gold">Apply Today</Link>
             <Link to="/get-involved" className="btn-outline">Volunteer</Link>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function Footer() {
               </div>
               <div className="flex items-start gap-2">
                 <Mail className="w-4 h-4 mt-0.5 text-gold-400 shrink-0" />
-                <a href="mailto:cwfrfoundation@gmail.com" className="hover:text-gold-400 hover:underline">cwfrfoundation@gmail.com</a>
+                <a href="mailto:cwfrfoundation@gmail.com" className="hover:text-gold-400 hover:underline">cwfrfoundation@gmail.com</Link>
               </div>
             </div>
             <div className="flex gap-3">
@@ -112,7 +112,7 @@ export default function Footer() {
                   aria-label="Social media link"
                 >
                   <Icon className="w-4 h-4" />
-                </a>
+                </Link>
               ))}
               */}
             </div>
