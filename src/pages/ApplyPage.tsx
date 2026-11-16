@@ -28,7 +28,7 @@ export default function ApplyPage() {
           {ORIENTATION_VIDEO_URL ? (
             <video className="mt-6 aspect-video w-full rounded-2xl bg-black" controls preload="metadata">
               <source src={ORIENTATION_VIDEO_URL} type="video/mp4" />
-              Your browser cannot play this video. Please use the direct video link below.
+              Your browser cannot play this video. Please use a different browser or contact CWFR for assistance.
             </video>
           ) : (
             <div className="mt-6 flex min-h-48 items-center justify-center rounded-2xl border border-dashed border-purple-300 bg-purple-50 p-6 text-center text-purple-900">
@@ -67,7 +67,7 @@ export default function ApplyPage() {
             />
           </div>
           <p className="mt-4 text-center text-sm text-gray-600">
-            Your application and photo are submitted securely to CWFR’s applicant CRM. If the form does not load,{' '}
+            Your application and photo are submitted to CWFR’s applicant CRM in Airtable. If the form does not load,{' '}
             <a className="font-semibold text-purple-800 underline" href="https://airtable.com/app1ixGUs4jrxEBpo/pag4I5QcQ5M907sNs/form" target="_blank" rel="noreferrer">
               open the application in a new tab <ArrowRight className="inline h-4 w-4" />
             </a>.
