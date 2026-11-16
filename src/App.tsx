@@ -11,6 +11,7 @@ import ContactPage from '@/pages/ContactPage';
 import PrivacyPage from '@/pages/PrivacyPage';
 import TermsPage from '@/pages/TermsPage';
 import AccessibilityPage from '@/pages/AccessibilityPage';
+import OrientationPage from '@/pages/OrientationPage';
 
 export default function App() {
   const { path } = useRouter();
@@ -29,6 +30,8 @@ export default function App() {
         return <MissionVisionPage />;
       case '/programs':
         return <ProgramsPage />;
+      case '/orientation':
+        return <OrientationPage />;
       case '/donate':
         return <DonatePage />;
       case '/get-involved':
