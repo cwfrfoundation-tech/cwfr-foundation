@@ -31,6 +31,8 @@ export default function App() {
         return <MissionVisionPage />;
       case '/programs':
         return <ProgramsPage />;
+      case '/apply':
+        return <ApplicationPage />;
       case '/orientation':
         return <OrientationPage />;
       case '/donate':
