@@ -3,7 +3,7 @@ import { Link } from '@/router';
 import { CheckCircle2, PlayCircle, ShieldCheck } from 'lucide-react';
 
 const VIDEO_URL = '/CWFR_Orientation_Narrated_Editable_Final_Short_Version%20(1)(1).mp4';
-const CONFIRMATION_FORM = 'https://airtable.com/app1ixGUs4jrxEBpo/pagXiD0utgnlztopW/form';
+const CONFIRMATION_FORM = 'https://airtable.com/app1ixGUs4jrxEBpo/pagXiD0utgnlztopW/form/embed';
 
 export default function OrientationPage() {
   const [finished, setFinished] = useState(false);
