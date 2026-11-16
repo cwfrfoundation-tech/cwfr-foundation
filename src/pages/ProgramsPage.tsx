@@ -249,7 +249,7 @@ export default function ProgramsPage() {
             <Link to="/apply" className="btn-gold group">
               Apply Today
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </a>
+            </Link>
             <Link to="/orientation" className="btn-outline-purple">
               Step 2: Watch Orientation
             </Link>
