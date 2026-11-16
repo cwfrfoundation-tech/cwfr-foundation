@@ -12,6 +12,7 @@ import PrivacyPage from '@/pages/PrivacyPage';
 import TermsPage from '@/pages/TermsPage';
 import AccessibilityPage from '@/pages/AccessibilityPage';
 import OrientationPage from '@/pages/OrientationPage';
+import ApplicationPage from '@/pages/ApplicationPage';
 
 export default function App() {
   const { path } = useRouter();
