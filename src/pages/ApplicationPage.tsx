@@ -1,7 +1,7 @@
 import { FileText, ShieldCheck } from 'lucide-react';
 import { Link } from '@/router';
 
-const APPLICATION_FORM = 'https://airtable.com/app1ixGUs4jrxEBpo/pag4I5QcQ5M907sNs/form/embed';
+const APPLICATION_FORM = 'https://airtable.com/embed/app1ixGUs4jrxEBpo/pag4I5QcQ5M907sNs/form';
 
 export default function ApplicationPage() {
   return (
