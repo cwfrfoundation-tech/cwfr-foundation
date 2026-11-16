@@ -245,7 +245,7 @@ export default function ProgramsPage() {
             subtitle="Apply to participate in our workforce-readiness programs and start your journey toward career success."
           />
           <div className="mt-8 flex flex-wrap gap-3 justify-center">
-            <a href="https://airtable.com/app1ixGUs4jrxEBpo/pag4I5QcQ5M907sNs/form" className="btn-gold group">
+            <a href="/apply" className="btn-gold group">
               Apply Today
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
