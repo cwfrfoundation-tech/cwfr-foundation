@@ -10,7 +10,8 @@ export type RoutePath =
   | '/contact'
   | '/privacy'
   | '/terms'
-  | '/accessibility';
+  | '/accessibility'
+  | '/apply';
 
 function getPath(): string {
   const path = window.location.pathname;
