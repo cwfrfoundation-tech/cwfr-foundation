@@ -5,6 +5,8 @@ export type RoutePath =
   | '/about'
   | '/mission-vision'
   | '/programs'
+  | '/apply'
+  | '/orientation'
   | '/donate'
   | '/get-involved'
   | '/contact'
