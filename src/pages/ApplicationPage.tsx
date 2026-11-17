@@ -11,7 +11,7 @@ export default function ApplicationPage() {
           <p className="text-gold-400 font-bold tracking-wider uppercase text-sm">Participant onboarding · Step 1</p>
           <h1 className="text-3xl sm:text-5xl font-display font-bold mt-3">CWFR Youth Program Application</h1>
           <p className="text-purple-100 mt-5 max-w-3xl leading-relaxed">
-            Complete the full application below. Applicants under 18 will see required parent or guardian consent fields after entering their age. After submitting, continue to the orientation video from the confirmation message.
+            Applicants ages 16–24 can apply below. If you are 16, your application is PRE-REGISTRATION only; formal CWFR program participation begins at 17. For ages 16 and 17, choose the matching option under “Applicant Age and Guardian Consent” to reveal the required parent/guardian consent fields at the end of the form. A parent or legal guardian must complete those fields and sign. After submitting, continue to orientation using the confirmation link.
           </p>
         </div>
       </section>
@@ -23,7 +23,7 @@ export default function ApplicationPage() {
           </div>
           <div className="rounded-xl bg-amber-50 border border-amber-100 p-4 flex gap-3">
             <ShieldCheck className="w-5 h-5 text-amber-800 shrink-0 mt-0.5" />
-            <p className="text-sm text-gray-700">The photo/media permission choice is optional. Guardian consent verification is tracked separately from orientation completion.</p>
+            <p className="text-sm text-gray-700">You must choose approve or decline for media use; declining does not affect eligibility. Under-18 guardian consent must be verified separately from orientation completion.</p>
           </div>
         </div>
         <div className="overflow-hidden rounded-2xl border border-purple-100 shadow-xl bg-white">
