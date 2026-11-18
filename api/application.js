@@ -1,4 +1,4 @@
-import { createHmac, timingSafeEqual } from 'node:crypto';
+import { createHash, createHmac, timingSafeEqual } from 'node:crypto';
 import nodemailer from 'nodemailer';
 import { emailField, photoField, normalizeEmail, validEmail, validateApplication } from '../src/data/application-fields.mjs';
 
@@ -8,6 +8,8 @@ const base = 'app1ixGUs4jrxEBpo';
 const table = 'tblUX1lEjyUtvwF6l';
 const cookieName = '__Host-cwfr-application';
 const emailRequests = new Map();
+const fullNameField = 'fldCxk2Cnxa1ZDvIw';
+const websiteSubmittedField = 'fldFQVjNr59XOb8wb';
 
 function sign(email, purpose, minutes) {
   const payload = Buffer.from(JSON.stringify({ email, purpose, expires: Date.now() + minutes * 60_000 })).toString('base64url');
@@ -53,6 +55,7 @@ async function findRecord(email) {
   });
   query.append('fields[]', emailField);
   query.append('fields[]', photoField);
+  query.append('fields[]', fullNameField);
   const { records } = await airtable(recordsUrl + '?' + query);
   return { record: records[0], ambiguous: records.length > 1 };
 }
@@ -69,7 +72,13 @@ function readPhoto(file) {
   const jpeg = data[0] === 255 && data[1] === 216 && data[2] === 255;
   const png = data.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]));
   if (!jpeg && !png) return null;
-  return { contentType: jpeg ? 'image/jpeg' : 'image/png', filename: jpeg ? 'participant-photo.jpg' : 'participant-photo.png', file: file.contents };
+  const fingerprint = createHash('sha256').update(data).digest('hex').slice(0, 24);
+  const extension = jpeg ? 'jpg' : 'png';
+  return {
+    contentType: jpeg ? 'image/jpeg' : 'image/png',
+    filename: 'participant-photo-' + fingerprint + '.' + extension,
+    file: file.contents,
+  };
 }
 
 export default async function handler(req, res) {
@@ -133,12 +142,14 @@ export default async function handler(req, res) {
       const result = await write(recordsUrl, 'PATCH', {
         performUpsert: { fieldsToMergeOn: [emailField] },
         records: [{ fields: { [emailField]: email } }],
+        returnFieldsByFieldId: true,
       });
       record = result.records[0];
     }
-    if (photo) {
+    if (photo && !record.fields?.[photoField]?.some(attachment => attachment.filename === photo.filename)) {
       await write('https://content.airtable.com/v0/' + base + '/' + record.id + '/' + photoField + '/uploadAttachment', 'POST', photo);
     }
+    if (!record.fields?.[fullNameField]) values[websiteSubmittedField] = true;
     await write(recordsUrl + '/' + record.id, 'PATCH', { fields: values });
     return res.status(200).json({ saved: true });
   } catch (error) {
