@@ -1,0 +1,260 @@
+[
+  {
+    "id": "fldCxk2Cnxa1ZDvIw",
+    "label": "Full Name",
+    "type": "singleLineText"
+  },
+  {
+    "id": "flds9SgoTUNosU3Ll",
+    "label": "Email Address",
+    "type": "singleLineText"
+  },
+  {
+    "id": "fldF6U9FfxsbidNwe",
+    "label": "Phone Number",
+    "type": "singleLineText"
+  },
+  {
+    "id": "fldsOSIFk7qWlNfOc",
+    "label": "County",
+    "type": "singleSelect",
+    "choices": [
+      "Miami-Dade",
+      "Broward",
+      "Palm Beach"
+    ]
+  },
+  {
+    "id": "fldeJOgrgg18B6Nur",
+    "label": "Applicant Age (enter a number, e.g., 17)",
+    "type": "number"
+  },
+  {
+    "id": "fldiwZkFvsSRDedND",
+    "label": "I agree that CWFR may contact me about this application",
+    "type": "checkbox"
+  },
+  {
+    "id": "fldZpCS7LQgWsl0Qd",
+    "label": "Preferred Method of Contact",
+    "type": "singleSelect",
+    "choices": [
+      "Phone Call",
+      "Text Message",
+      "Email"
+    ]
+  },
+  {
+    "id": "fldfosgXI0GKOAz4F",
+    "label": "Primary Program Interest",
+    "type": "singleSelect",
+    "choices": [
+      "Career exploration and training",
+      "Resume and interview preparation",
+      "Job placement support",
+      "Not sure yet"
+    ]
+  },
+  {
+    "id": "fldxLZJAPS5QFTax2",
+    "label": "Applicant Age and Guardian Consent",
+    "type": "singleSelect",
+    "choices": [
+      "I am 16; I understand this is pre-registration and must turn 17 before program participation. Parent/guardian consent is required.",
+      "I am 17; I understand parent/guardian consent must be verified before participation.",
+      "I am 18-24; I understand no parent/guardian consent is required."
+    ]
+  },
+  {
+    "id": "fldwExTrwSiX3qiIA",
+    "label": "Social Media Photo Permission Decision",
+    "type": "singleSelect",
+    "choices": [
+      "I approve social media/photo use",
+      "I do not approve social media/photo use"
+    ]
+  },
+  {
+    "id": "fldp6DmVnOwpkpzVq",
+    "label": "Participant Photo / Headshot (Required)",
+    "type": "multipleAttachments"
+  },
+  {
+    "id": "fldaEdWc8a7UqxmpI",
+    "label": "Preferred Name",
+    "type": "singleLineText"
+  },
+  {
+    "id": "fldMInnDxadeW85Zy",
+    "label": "Best Time and Language to Contact",
+    "type": "singleLineText"
+  },
+  {
+    "id": "fld8VFWDWNF4SfMNn",
+    "label": "Emergency Contact Name and Relationship",
+    "type": "singleLineText"
+  },
+  {
+    "id": "flddvcQ6X8ssde6RO",
+    "label": "Emergency Contact Phone",
+    "type": "phoneNumber"
+  },
+  {
+    "id": "fldNL0ian4NnpymFg",
+    "label": "Emergency Contact Email",
+    "type": "email"
+  },
+  {
+    "id": "fldVo0VRuhbNCtvYL",
+    "label": "Career and Education Interests",
+    "type": "multipleSelects",
+    "choices": [
+      "Getting a job",
+      "Internship or volunteer experience",
+      "College or other education",
+      "Career or technical training",
+      "Starting or exploring a business",
+      "Not sure yet / exploring options"
+    ]
+  },
+  {
+    "id": "fldLHwLyPj1NJ884X",
+    "label": "What Would You Most Like Help With?",
+    "type": "multilineText"
+  },
+  {
+    "id": "fldTtQMZ06378PRMY",
+    "label": "Three-Month Goal",
+    "type": "multilineText"
+  },
+  {
+    "id": "fldSI9Dpl3pk103cB",
+    "label": "Strengths and Interests",
+    "type": "multilineText"
+  },
+  {
+    "id": "fldOQjVR22rqOIhS9",
+    "label": "Skills and Experience",
+    "type": "multilineText"
+  },
+  {
+    "id": "fldT2HVjQVwhS3gCW",
+    "label": "School, Training, or Last Grade Completed",
+    "type": "singleLineText"
+  },
+  {
+    "id": "fldOb71ULa6MmNYX5",
+    "label": "Current Work Status",
+    "type": "singleSelect",
+    "choices": [
+      "Working",
+      "Looking for work",
+      "In school/training",
+      "Other",
+      "Prefer not to say"
+    ]
+  },
+  {
+    "id": "fldquoizBYr2hBoLv",
+    "label": "General Availability",
+    "type": "multilineText"
+  },
+  {
+    "id": "fldC7mYj8Of2PCDCr",
+    "label": "Preferred Work or Learning Areas",
+    "type": "multilineText"
+  },
+  {
+    "id": "fld4Afp3VFnSLJg41",
+    "label": "Resume Status",
+    "type": "singleSelect",
+    "choices": [
+      "Yes, I have a resume",
+      "No, I do not have a resume",
+      "I would like help creating one"
+    ]
+  },
+  {
+    "id": "fldu6ZdMSFcwSmv1l",
+    "label": "Participation Support Requested",
+    "type": "multipleSelects",
+    "choices": [
+      "Transportation or directions",
+      "Internet, computer, or phone access",
+      "Schedule planning",
+      "Accessibility or learning accommodation request",
+      "Clothing or supplies",
+      "Referral to another community resource",
+      "Other support / prefer to discuss privately",
+      "None at this time"
+    ]
+  },
+  {
+    "id": "flduc5MSUDrLVlQP6",
+    "label": "Additional Participation Support Details",
+    "type": "multilineText"
+  },
+  {
+    "id": "fldllPUYSK7aWD3bz",
+    "label": "Applicant Acknowledgment",
+    "type": "singleSelect",
+    "choices": [
+      "I confirm and agree"
+    ]
+  },
+  {
+    "id": "fldO10YtGI2RpLWiz",
+    "label": "Applicant Electronic Signature",
+    "type": "singleLineText"
+  },
+  {
+    "id": "fldFtQrriVpc8JFDO",
+    "label": "Applicant Signature Date",
+    "type": "singleLineText"
+  },
+  {
+    "id": "flduHwUCgs3LlYiAz",
+    "label": "Parent/Guardian Full Name",
+    "type": "singleLineText",
+    "minor": true
+  },
+  {
+    "id": "fldhx6OKEMaEEqT1D",
+    "label": "Parent/Guardian Contact Number",
+    "type": "phoneNumber",
+    "minor": true
+  },
+  {
+    "id": "fldNDXPcDXRDDVk4b",
+    "label": "Parent/Guardian Relationship to Applicant",
+    "type": "singleLineText",
+    "minor": true
+  },
+  {
+    "id": "fldnJ9IftEGLaZSlW",
+    "label": "Parent/Guardian Email",
+    "type": "email",
+    "minor": true
+  },
+  {
+    "id": "fldHHzalKRqlnDlIC",
+    "label": "Parent/Guardian Consent",
+    "type": "singleSelect",
+    "minor": true,
+    "choices": [
+      "I am the parent/legal guardian and I consent"
+    ]
+  },
+  {
+    "id": "fldCFg1MSaij5OA24",
+    "label": "Parent/Guardian Electronic Signature",
+    "type": "singleLineText",
+    "minor": true
+  },
+  {
+    "id": "fldOhv4ECHyZKbS30",
+    "label": "Parent/Guardian Signature Date",
+    "type": "singleLineText",
+    "minor": true
+  }
+]
